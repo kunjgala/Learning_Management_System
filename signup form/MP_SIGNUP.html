@@ -1,0 +1,82 @@
+<!--https://www.youtube.com/watch?v=z5eL6TStPws -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User_Registration</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="MP_SIGNUP.css">
+</head>
+<body>
+<div class="">
+  	<div class="row">
+    	<div class="col-sm-3 left_fill_background">
+    		<img class="pencil" src="images.png">
+    		<img class="pencil1" src="images1.png">
+    	</div>
+    	<div class="col-sm-9 sign_up_background">
+    		<h1>Please fill in the form below to register yourself:</h1>
+    		<br>
+      		<div class="row">
+      			<form>
+      			<div class="col-sm-2 sign_up_labels" required>First Name:</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="text" name="first_name" id="first_name" placeholder="First name (required)"></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Last Name:</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="text" name="last_name" id="last_name" placeholder="Last name "></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Date of Birth:</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="date" name="DOB" id="DOB"></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels" required>Email-id:</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="text" name="email_id" id="email_id" placeholder="Email id (required)"></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels" required>Contact Number(mobile):</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="text" name="contact_number" id="contact_number" placeholder="Contact number (required)"></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Gender:</div>
+      			<div class="col-sm-10 sign_up_inputs">
+      				<input type="radio" name="gender" id="gender" value="male">Male
+      				<input type="radio" name="gender" id="gender" value="female">Female
+      				<input type="radio" name="gender" id="gender" value="other">Other
+      			</div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Department:</div>
+      			<div class="col-sm-10 sign_up_inputs"><select class="form-control" name="employee_type" id="employee_type">
+      													<option>Computer Science</option>
+      													<option>Information Technology</option>
+      													<option>Electronics</option>
+      													<option>Electronics and Telecommunication</option>
+      													<option>Mechanical</option>
+   													  </select></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Select Employee type:</div>
+      			<div class="col-sm-10 sign_up_inputs"><select class="form-control" name="employee_type" id="employee_type">
+      													<option>Admin</option>
+      													<option>Head of the Department</option>
+      													<option>Employee</option>
+   													  </select></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Set Password:</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="password" name="password" id="password" placeholder="Password (required)"></div>
+      			<br><br><br><br>
+      			<div class="col-sm-2 sign_up_labels">Re-enter Password:</div>
+      			<div class="col-sm-10 sign_up_inputs"><input type="password" name="re_password" id="re_password" placeholder="Re enter password (required)"></div>
+      			<br><br><br><br>
+      			<input class="btn btn-success" type="submit" name="">
+
+      			</form>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
