@@ -1,0 +1,51 @@
+.error {
+	color: #FF0000;
+}
+
+.left_fill_background{
+	background-color: #1034A6;
+	height:960px;
+}
+.sign_up_background{
+	padding-left: 50px;
+    height: 960px;
+	background-color: #ECECEC;
+	border-right: 150px solid #1034A6;
+	
+}
+.sign_up_labels{
+	color: #48494B;
+}
+h1{
+	color: #48494B;
+}
+.form-control{
+	width:300px;
+}
+input[type="text"]{
+	border-radius: 3px;
+	border-width: 0.1px;
+}
+input[type="password"]{
+	border-radius: 3px;
+	border-width: 0.1px;
+}
+input[type="date"]{
+	border-radius: 3px;
+	border-width: 0.1px;
+}
+input[type="submit"]{
+	margin-left: 150px;
+	margin-bottom: 10px;
+	color: #48494B;
+	width:100px;
+	border:0px;
+	background-color: #00FF00;
+}
+
+.signup{
+
+	width:150px;
+	height: 1050px;
+	margin-top:0px; 
+}

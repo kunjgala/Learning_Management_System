@@ -1,0 +1,56 @@
+.error {
+	color: #FF0000;
+}
+
+
+#application_image{
+	margin-top: 190px;
+}
+
+
+.left_fill_background{
+	background-color: #1034A6;  
+	height:960px;
+}
+.sign_up_background{
+	padding-left: 50px;
+    height: 960px;
+	background-color: #ECECEC;
+	border-right: 150px solid #1034A6;
+	
+}
+
+
+.sign_up_labels{
+	color: #48494B;
+}
+h1{
+	color: #48494B;
+}
+.form-control{
+	width:300px;
+}
+input[type="text"]{
+	border-radius: 3px;
+    border-width: 0.1px;
+    border-style: solid;
+}
+textarea {
+    border-radius: 3px;
+    border-width: 0.1px;
+    border-style: solid;
+}
+input[type="date"]{
+	border-radius: 3px;
+    border-width: 0.1px;
+    border-style: solid;
+}
+input[type="submit"]{
+	margin-left: 300px;
+	margin-bottom: 10px;
+	color: white;
+	width:100px;
+	border:0px;
+    
+}
+

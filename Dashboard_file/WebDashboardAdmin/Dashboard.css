@@ -1,0 +1,35 @@
+body{
+	background-color: #ECECEC;
+}
+
+#profile{
+  color: white;
+  font-weight: 80px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+#profile:hover {
+  background-color: white;
+  border-radius: 20px;
+  color:#1034A6;
+}
+
+#backwhite{
+	margin-right: 5px;
+}
+#backwhite:hover {
+  background-color: white;
+  border-radius: 20px;
+  color:#1034A6;
+}
+#logout{
+  color: white;
+  font-weight: 30px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+#logout:hover{
+  background-color: white;
+  border-radius: 20px;
+  color:#1034A6;
+}
